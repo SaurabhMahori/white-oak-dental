@@ -713,7 +713,7 @@ function AboutSection() {
                 </div>
               </div>
               {/* floating badge */}
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl px-5 py-4 flex items-center gap-3 animate-float">
+              <div className="hidden md:flex absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl px-5 py-4 items-center gap-3 animate-float">
                 <div className="h-11 w-11 rounded-xl bg-teal-50 flex items-center justify-center">
                   <Clock className="h-5 w-5 text-teal-600" />
                 </div>
